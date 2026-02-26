@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-@app.get("/api/familia")
+@app.get("/familia")
 def get_familia():
     rows = ["Amin", "Marce", "Miranda"]
     return rows
